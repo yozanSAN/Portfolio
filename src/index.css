@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'Oleo Script';
+  src: url('./assets/fonts/Oleo_Script/OleoScript-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Oleo Script';
+  src: url('./assets/fonts/Oleo_Script/OleoScript-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./assets/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Set Montserrat as the default font for the entire application */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Ensure all text elements use Montserrat */
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Disable all transitions by default */
+* {
+  transition: none !important;
+}
+
+/* Only enable transitions when dark mode is toggling */
+.dark-mode-transition * {
+  transition: background-color 0.4s ease-out, 
+              color 0.4s ease-out, 
+              border-color 0.4s ease-out, 
+              box-shadow 0.4s ease-out !important;
+}
+
+/* Ensure all elements transition together */
+.dark-mode-transition {
+  transition: all 0.4s ease-out !important;
+}
+
+.dark-mode-transition * {
+  transition: all 0.4s ease-out !important;
+}
