@@ -7,16 +7,7 @@ const About = () => {
         
         <div className="space-y-6 text-slate-600 dark:text-slate-300">
           <p>
-            Hi there! I'm a passionate software developer specializing in full-stack development, 
-            with a strong focus on creating efficient, scalable, and user-friendly applications. 
-            With several years of experience across various technologies, I've worked on projects 
-            ranging from enterprise solutions to innovative startups.
-          </p>
-          <p>
-            I thrive in collaborative environments where I can contribute to meaningful projects 
-            that make a real difference. Whether it's architecting robust backend systems, 
-            crafting intuitive user interfaces, or optimizing database performance, I'm committed 
-            to delivering high-quality solutions that exceed expectations.
+            I'm a full-stack developer with a passion for building scalable, user-friendly web applications. I specialize in both frontend and backend development, creating efficient solutions that solve real-world problems. From enterprise systems to innovative startups, I thrive on turning complex challenges into elegant code. Let's collaborate and build something amazing together!
           </p>
           <p>
             Let's work together to bring your ideas to life! I'm always excited about new challenges 
