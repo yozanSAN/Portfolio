@@ -5,7 +5,7 @@ const About = () => {
         <h2 className="text-4xl font-bold text-center text-slate-800 dark:text-white mb-4">About Me</h2>
         <div className="w-16 h-1 bg-blue-500 mx-auto mb-12"></div>
         
-        <div className="space-y-6 text-slate-600 dark:text-slate-300">
+        <div className="space-y-6 text-slate-600 dark:text-slate-300 text-xl md:text-2xl leading-relaxed">
           <p>
             I'm a full-stack developer with a passion for building scalable, user-friendly web applications. I specialize in both frontend and backend development, creating efficient solutions that solve real-world problems. From enterprise systems to innovative startups, I thrive on turning complex challenges into elegant code. Let's collaborate and build something amazing together!
           </p>

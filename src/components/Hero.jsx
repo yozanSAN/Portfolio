@@ -16,8 +16,8 @@ const Hero = () => {
           <Code className="w-20 h-20 text-white" />
         </div>
         <h1 className="text-5xl font-bold text-slate-800 dark:text-white mb-2">Almobaraki Ayoub</h1>
-        <p className="text-xl text-blue-500 dark:text-blue-400 mb-6">💻 Full Stack Softwar Developer</p>
-        <p className="text-slate-600 dark:text-slate-300 max-w-2xl mx-auto mb-8 leading-relaxed">
+        <p className="text-xl text-blue-500 dark:text-blue-400 mb-6">💻 Full Stack Software Developer</p>
+        <p className="text-slate-600 dark:text-slate-300 text-xl md:text-2xl leading-relaxed mb-7">
           Passionate software developer with expertise in building scalable web applications, 
           creating efficient backend systems, and delivering clean, maintainable code. 
           I transform ideas into digital solutions that drive innovation and solve real-world problems.

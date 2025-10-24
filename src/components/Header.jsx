@@ -52,21 +52,21 @@ const Header = () => {
   return (
     <nav className="fixed top-0 w-full bg-white/80 dark:bg-slate-900/80 backdrop-blur-md shadow-sm z-50">
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-        <div className="text-2xl font-bold text-slate-800 dark:text-white" style={{ fontFamily: 'Oleo Script, cursive' }}>Portfolio</div>
+        <div className="text-3xl font-bold text-slate-800 dark:text-white" style={{ fontFamily: 'Oleo Script, cursive' }}>Portfolio</div>
         <div className="hidden md:flex gap-8 text-sm">
-          <a href="#home" className="text-blue-500 dark:text-blue-400 font-medium hover:text-blue-600 dark:hover:text-blue-300 transition">
+          <a href="#home" className="text-xl text-blue-500 dark:text-blue-400 font-medium hover:text-blue-600 dark:hover:text-blue-300 transition">
             Home
           </a>
-          <a href="#about" className="text-slate-600 dark:text-slate-300 hover:text-blue-500 dark:hover:text-blue-400 transition">
+          <a href="#about" className=" text-xl text-slate-600 dark:text-slate-300 hover:text-blue-500 dark:hover:text-blue-400 transition">
             About
           </a>
-          <a href="#services" className="text-slate-600 dark:text-slate-300 hover:text-blue-500 dark:hover:text-blue-400 transition">
+          <a href="#services" className="text-xl text-slate-600 dark:text-slate-300 hover:text-blue-500 dark:hover:text-blue-400 transition">
             Services
           </a>
-          <a href="#projects" className="text-slate-600 dark:text-slate-300 hover:text-blue-500 dark:hover:text-blue-400 transition">
+          <a href="#projects" className="text-xl text-slate-600 dark:text-slate-300 hover:text-blue-500 dark:hover:text-blue-400 transition">
             Projects
           </a>
-          <a href="#contact" className="text-slate-600 dark:text-slate-300 hover:text-blue-500 dark:hover:text-blue-400 transition">
+          <a href="#contact" className="text-xl text-slate-600 dark:text-slate-300 hover:text-blue-500 dark:hover:text-blue-400 transition">
             Contact
           </a>
         </div>
