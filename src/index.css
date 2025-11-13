@@ -1,30 +1,4 @@
-@font-face {
-  font-family: 'Oleo Script';
-  src: url('./assets/fonts/Oleo_Script/OleoScript-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Oleo Script';
-  src: url('./assets/fonts/Oleo_Script/OleoScript-Bold.ttf') format('truetype');
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Montserrat';
-  src: url('./assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
-  font-weight: 100 900;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Montserrat';
-  src: url('./assets/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf') format('truetype');
-  font-weight: 100 900;
-  font-style: italic;
-}
+/* Fonts now loaded via Google Fonts CDN in index.html for better performance */
 
 @tailwind base;
 @tailwind components;
