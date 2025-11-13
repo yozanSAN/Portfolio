@@ -14,24 +14,10 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* Disable all transitions by default */
-* {
-  transition: none !important;
-}
-
-/* Only enable transitions when dark mode is toggling */
+/* Smooth transitions for dark mode theme changes only */
+.dark-mode-transition,
 .dark-mode-transition * {
-  transition: background-color 0.4s ease-out, 
-              color 0.4s ease-out, 
-              border-color 0.4s ease-out, 
-              box-shadow 0.4s ease-out !important;
-}
-
-/* Ensure all elements transition together */
-.dark-mode-transition {
-  transition: all 0.4s ease-out !important;
-}
-
-.dark-mode-transition * {
-  transition: all 0.4s ease-out !important;
+  transition: background-color 0.3s ease-out, 
+              color 0.3s ease-out, 
+              border-color 0.3s ease-out !important;
 }
