@@ -25,10 +25,14 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* --- Hero Profile Icon --- */}
-        <div className="w-40 h-40 mx-auto mb-6 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full flex items-center justify-center">
-          <Code className="w-20 h-20 text-white" />
-        </div>
+        {/* --- Hero Profile image --- */}
+        <div className="w-40 h-40 mx-auto mb-6 rounded-full overflow-hidden border-4 border-blue-500 dark:border-blue-400 shadow-lg flex items-center justify-center bg-slate-100 dark:bg-slate-800">
+                  <img
+                    src="/profile.png"
+                    alt="image"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
 
         {/* --- Profile Info --- */}
         <h1 className="text-5xl font-bold text-slate-800 dark:text-white mb-2">Almobaraki Ayoub</h1>
