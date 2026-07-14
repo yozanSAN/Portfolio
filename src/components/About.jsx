@@ -18,7 +18,7 @@ const About = () => {
         
         <div className="mt-10 text-center">
           <a 
-            href="/Almobaraki-Ayoub–CV.pdf" 
+            href="/Ayoub_Almobaraki_CV.pdf"
             download="Almobaraki-Ayoub-CV.pdf"
             className="inline-block px-6 py-3 bg-slate-800 dark:bg-slate-700 text-white rounded-lg hover:bg-slate-700 dark:hover:bg-slate-600 transition"
           >

@@ -28,7 +28,7 @@ const Hero = () => {
         {/* --- Hero Profile image --- */}
         <div className="w-40 h-40 mx-auto mb-6 rounded-full overflow-hidden border-4 border-blue-500 dark:border-blue-400 shadow-lg flex items-center justify-center bg-slate-100 dark:bg-slate-800">
                   <img
-                    src="/profile.png"
+                    src="/photo.jpg"
                     alt="image"
                     className="w-full h-full object-cover"
                   />
